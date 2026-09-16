@@ -8,3 +8,9 @@
 
 # นักเรียนเขียนโค้ดต่อจากบรรทัดนี้
 unit = int(input())
+if (unit <= (50)):
+    print (unit * 3)
+elif  (unit <= (100)):
+    print (unit * 4)
+else:
+    print (unit * 5)
