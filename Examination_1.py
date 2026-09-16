@@ -7,3 +7,5 @@
 
 # นักเรียนเขียนโค้ดต่อจากบรรทัดนี้
 total_minutes = int(input())
+hour = print (int(total_minutes / 60))
+print (int(((int(total_minutes / 60)) * 60 - total_minutes) / -1))
