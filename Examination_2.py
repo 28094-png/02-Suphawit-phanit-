@@ -6,8 +6,8 @@
 
 
 # นักเรียนเขียนโค้ดต่อจากบรรทัดนี้
-a = int(input("A:"))
-b = int(input("B:"))
+a = int(input(""))
+b = int(input(""))
 if (a > b):
     print ("A is greater")
 else:
