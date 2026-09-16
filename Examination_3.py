@@ -6,4 +6,8 @@
 
 
 # นักเรียนเขียนโค้ดต่อจากบรรทัดนี้
-password = input()
+password = (input())
+if (str(password) >= ("8")):
+    print ("Pass")
+elif (str(password) < ("8")):
+    print ("Too Short")
