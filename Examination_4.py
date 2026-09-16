@@ -7,3 +7,11 @@
 
 # นักเรียนเขียนโค้ดต่อจากบรรทัดนี้
 color = input()
+if (color == ("Stop")):
+    print("red")
+elif (color == ("Slow")):
+    print ("yellow")
+elif (color == ("Go")):
+    print ("green")
+else:
+    print ("Invalid")
